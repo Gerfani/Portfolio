@@ -2,7 +2,7 @@ import { Button } from '@/components/ui/button';
 
 const navItems = [
   { id: 'personas', label: 'Personas' },
-  { id: 'pillars', label: 'DevRel Pillars' },
+  { id: 'pillars', label: 'Core Expertise' },
   { id: 'contact', label: 'Contact' }
 ];
 

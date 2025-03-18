@@ -23,7 +23,7 @@ export function InspirationCard({ inspiration, className }: InspirationCardProps
         </div>
       </div>
       <div className="space-y-3">
-      <h4 className="text-sm font-medium text-accent1 italic">He inspires me to:</h4>
+      <h4 className="text-sm font-medium text-accent1 italic">Inspires me to:</h4>
         <ul className="grid grid-cols-1 lg:grid-cols-2 gap-2">
           {inspiration.lessons.map((lesson, index) => (
             <li key={index} className="flex items-center">

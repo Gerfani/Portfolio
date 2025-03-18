@@ -63,7 +63,7 @@ export function PersonaSection({ selectedPersona, onSelectPersona, isMainSelecte
           {!hasPrevious && <div className="w-12 mr-4" />}
           <div className="flex-1 text-center">
             <p className="text-sm text-gray-400 mb-2">
-              An ideal DevRel should be {currentPersona.title.toLowerCase().startsWith('e') ? 'an' : 'a'}...
+              An essential part of transforming healthcare is being {currentPersona.title.toLowerCase().startsWith('e') ? 'an' : 'a'}...
             </p>
             <h2 className="text-4xl font-bold mb-4">
               {currentPersona.emoji} {currentPersona.title}

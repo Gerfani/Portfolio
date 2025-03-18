@@ -11,6 +11,9 @@ export interface Experience {
   date: string;
   tags: string[];
   link?: string;
+  videoUrl?: string;
+  imageUrl?: string;
+  pdfUrl?: string;
 }
 
 export interface Persona {

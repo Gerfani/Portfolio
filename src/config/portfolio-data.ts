@@ -3,292 +3,272 @@ import type { Persona } from '@/types/portfolio';
 export const portfolioData: Record<Persona['id'], Persona> = {
   'engineer': {
     id: 'engineer',
-    title: 'Software Engineer',
+    title: 'AI Scientist',
     emoji: '👨‍💻',
     color: 'rgba(99, 102, 241, 1)',
-    description: 'Who loves coding and shows fellow developers how to build their best work',
+    description: 'Who builds intelligent systems that augment healthcare delivery with a focus on patient outcomes and clinical decision support',
     inspirations: [
       {
-        name: 'Guillermo Rauch',
-        role: 'CEO & Founder at Vercel',
-        image: '/inspirations/guillermo-rauch.jpg',
+        name: 'Andrew Ng',
+        role: 'Co-founder of Google Brain, Coursera & Stanford AI Lab',
+        image: '/inspirations/Andrew-Ng.jpg',
         lessons: [
-          'Celebrate and amplify developers who use your tools creatively',
-          'Build developer tools that solve real pain points with exceptional UX',
-          'Foster a culture of open source and community celebration',
-          'Make complex technologies accessible and delightful to use'
+          'Democratize education and make complex knowledge accessible to millions worldwide',
+          'Approach AI development with both technical excellence and practical applications',
+          'Build bridges between academic research and industry implementation',
+          'Lead with humility while pursuing innovations that have meaningful global impact'
         ]
       },
       {
-        name: 'Dan Abramov',
-        role: 'Former React Core Team Member at Meta',
-        image: '/inspirations/dan-abramov.jpg',
+        name: 'Fei-Fei Li',
+        role: 'Co-Director of Stanford Human-Centered AI Institute',
+        image: '/inspirations/Fei-Fei-Li.jpg',
         lessons: [
-          'Stay curious and embrace continuous learning in technology',
-          'Create tools that solve real developer pain points (Redux, Create React App)',
-          'Share knowledge openly and make complex concepts approachable',
-          'Build with a focus on developer experience and maintainability'
+         'Design systems that reflect human needs and values across different contexts',
+         'Balance technological innovation with ethical considerations',
+         'Apply computer vision and deep learning approaches to medical imaging and diagnostics',
+         'Create AI that enhances rather than replaces human judgment in healthcare'      
         ]
       },
       {
-        name: 'Nader Dabit',
-        role: 'Director of DevRel at Eigen Labs',
-        image: '/inspirations/nader-dabit.jpg',
+        name: 'Yoshua Bengio',
+        role: 'Scientific Director of Mila, Turing Award Winner',
+        image: '/inspirations/Yoshua-Bengio.jpg',
         lessons: [
-          'Stay adaptable across technologies (Web2 → Web3, Mobile → Cloud)',
-          'Create high-impact developer content and documentation',
-          'Build genuine communities around emerging technologies',
-          'Balance teaching fundamentals with cutting-edge tech'
+          'Push the boundaries of AI research while considering societal implications',
+          'Advocate for responsible AI development and deployment',
+          'Apply deep learning approaches to complex healthcare challenges',
+          'Maintain scientific rigor while exploring innovative applications'
         ]
       },
       {
-        name: 'Kevin Owocki',
-        role: 'Founder of Gitcoin',
-        image: '/inspirations/kevin-owocki.jpg',
+        name: 'Demis Hassabis',
+        role: 'Co-founder & CEO of DeepMind',
+        image: '/inspirations/Demis-Hassabis.jpg',
         lessons: [
-          'Embrace experimentation through diverse side projects',
-          'Build and nurture technical communities for shared growth',
-          'Align technical work with broader social impact',
-          'Create systems that incentivize open source contribution'
+          'Tackle fundamental healthcare problems with novel computational approaches',
+          'Combine cognitive science insights with AI development',
+          'Think long-term about AI\'s transformative potential in medicine',
+          'Create interdisciplinary teams that bring diverse perspectives to AI challenges'
         ]
       }
     ],
     experiences: [
       {
-        title: '✨ Witney.ai - Your AI Life Witness',
-        description: 'Building an AI life witness and guide that helps people discover and stay true to their Hero\'s Journey. Witney integrates with Notion to help users recognize patterns, celebrate growth, and make choices aligned with their highest potential. Features include voice-powered journaling, personalized guidance, and seamless integration across web, desktop, and mobile platforms.',
-        date: '2024-Current',
-        tags: ['Next.js', 'Voice Tech', 'AI/ML', 'UX Design', 'Mobile-First', 'Notion API', 'Cloud Functions', 'grammY', 'Railway', 'RAG', 'Pinecone', 'toDesktop', 'React Native', 'Expo'],
-        link: 'https://witney.ai'
+        title: '🩺 Dr. CaringAI Web Application',
+        description: 'Developed a self-service medical consultation web application, enabling patients to receive AI-generated medical guidance. System workflow: symptom assessment, differential diagnosis generation, Perplexity API research integration, follow-up questions for final diagnoses, personalized treatment plans, and comprehensive pdf reports for patients to share with healthcare providers. FastAPI Python backend, MongoDB for data storage, AI integrations (OpenAI and Perplexity APIs), React 18 & Bootstrap 5 for the responsive frontend, connected through RESTful API endpoints with Axios.',
+        date: 'March, 2025',
+        tags: ['Web Development', 'AI Integration', 'Healthcare AI', 'Diagnostic System', 'Patient Care'],
+        link: '',
+        videoUrl: 'https://www.youtube.com/embed/YmiuWOxghm4'
       },
       {
-        title: '🤖 Gauntlet AI Training Program',
-        description: 'Selected for an intensive 12-week AI engineering program in Austin, combining rapid application development with advanced AI integration. The program focuses on building production-grade applications using modern AI tools and architecting systems that leverage multiple AI services.',
-        date: '2025',
-        tags: ['AI Engineering', 'System Architecture', 'Production Development']
+        title: '🤖 Dr. Agenticare - Agentic AI Healthcare System',
+        description: 'Designed and implemented a modular healthcare system on the n8n platform featuring specialized AI agents for patient interviews, research, lab tests, medical imaging, diagnosis, treatment, and patient education. Implemented sophisticated orchestration layer using OpenAI API, creating seamless communication pathways between specialized medical AI agents.',
+        date: 'February, 2025',
+        tags: ['n8n Platform', 'AI Agents','System Architecture','Medical Systems', 'AI Orchestration'],
+        link: '',
+        videoUrl: 'https://www.youtube.com/embed/XFzZ-59zkAI'
       },
       {
-        title: '💌 BlessOut - Cross-Platform eCard App',
-        description: 'Developed and launched a full-stack eCard application with web and mobile versions. Successfully deployed to iOS and Android app stores, demonstrating expertise in modern web and mobile development technologies.',
-        date: '2024',
-        tags: ['Next.js', 'Firebase', 'React Native', 'Expo', 'Cross-Platform Development']
+        title: '🧠 Fine-tuning Llama 3.2 3B with RLHF',
+        description: 'Implemented Reinforcement Learning from Human Feedback to optimize large language model responses for healthcare contexts. Engineered the system to generate responses that demonstrate empathy with patients, cultural sensitivity, and adherence to best bedside medical practices, significantly enhancing the patient experience.',
+        date: 'February, 2025',
+        tags: ['RLHF', 'Clinical Empathy', ' AI Ethics', 'Model Training', 'Llama 3.2'],
+        link: ''
       },
       {
-        title: '🦉 MyFinancialFuture - Lifestyle Cost Calculator',
-        description: 'Built a modern financial planning tool that helps users visualize and understand the real costs of their desired lifestyle. Features include location-specific cost of living calculations, family planning considerations, and partner income scenarios. Created to help people make informed decisions about their careers and financial goals.',
-        date: '2025',
-        tags: ['Next.js', 'Financial Planning', 'Data Visualization', 'UX Design'],
-        link: 'https://www.myfinancialfuture.xyz'
+        title: '📚 Fine-tuning Llama 3.2 3B LoRA for Medical Diagnosis',
+        description: 'Applied Low-Rank Adaptation (LoRA) techniques to efficiently fine-tune Llama 3.2 3B on the MedQA multiple-choice question dataset. Optimized model parameters for medical diagnostic reasoning while maintaining computational efficiency, resulting in improved diagnostic accuracy on complex medical cases.',
+        date: 'February, 2025',
+        tags: ['LoRA Fine-tuning', 'MedQA Dataset', 'Medical Diagnostics', 'Parameter-Efficient Training', 'AI Accuracy'],
+        link: ''
       },
       {
-        title: '🔮 AI-Powered Development Exploration',
-        description: 'Focused on experimenting with AI-powered IDEs and building user interfaces that reduce cognitive load and typing demands. Deepening expertise in modern software engineering practices and AI integration.',
-        date: '2024',
-        tags: ['AI Integration', 'UI/UX', 'Modern Development']
+        title: '📊 LLM Applications In Healthcare - Independent Study',
+        description: 'Conducted comprehensive research on LLM implementation in clinical environments, resulting in a 30-page paper examining architectural approaches, performance metrics, and integration challenges. Analyzed security considerations and explored potential regulatory frameworks for AI deployment in healthcare settings.',
+        date: 'September, 2024 - January, 2025',
+        tags: ['LLM Research', 'Healthcare AI', 'Security Analysis', 'Performance Metrics'],
+        link: 'https://www.linkedin.com/posts/aysf_large-language-model-llm-applications-in-activity-7295288078103908353-LCUH?utm_source=share&utm_medium=member_desktop&rcm=ACoAACA_j78BOEBx394mKOw861miJRoJ_D3Dj5Q',
+        pdfUrl: '/pdfs/llm-applications-in-healthcare.pdf'
       },
       {
-        title: '🎙️ PodForYou - AI Newsletter-to-Podcast Platform',
-        description: 'Building an AI-powered platform that transforms unread newsletters and YouTube videos into personalized podcast briefings. Features include Gmail integration for newsletter processing, personalized content curation based on learning goals, and dual AI narration. Designed for busy professionals who want to stay informed while saving hours every week.',
-        date: '2024',
-        tags: ['Next.js', 'AI/ML', 'Voice Synthesis', 'Content Processing', 'Gmail API', 'YouTube API', 'Perplexity API'],
-        link: 'https://podcastsforyou.com'
-      },
-      {
-        title: '🤖 Jakki.ai - Community-Led Social Media Bot',
-        description: 'Created a Telegram bot that empowers communities to collaboratively manage their social media presence. Features include democratic content proposal and voting, AI-powered post suggestions, caption competitions, and multi-platform posting to X and Farcaster. Built to make community-driven content creation fun and engaging.',
-        date: '2024-Current',
-        tags: ['Telegram Bot', 'Social Media', 'Community Tools', 'AI Integration', 'Web3'],
-        link: 'https://www.jakki.ai'
-      },
-      {
-        title: '🪙 Product Consultant for Web3 Platforms',
-        description: 'Consulted on growth and product strategy for major web3 platforms: Scaled Gitcoin Passport from 200k to 1M users, co-architected Guild.xyz\'s v3 API relaunch, and designed Flow State\'s product and go-to-market strategy. Demonstrated ability to drive significant user growth and product improvements across multiple platforms.',
-        date: '2022-Current',
-        tags: ['Product Strategy', 'Web3', 'Growth', 'API Design', 'Go-to-Market'],
-        link: 'https://passport.xyz'
-      },
-      {
-        title: '☁️ Frontend Engineering Team Lead at Google Cloud',
-        description: 'Led a team focused on building the frontend of Cloud SQL. Gained deep insights into the importance of developer infrastructure, documentation, and user-centric product development for driving adoption.',
-        date: '2015-2019',
-        tags: ['Google Cloud', 'Frontend Development', 'Team Leadership', 'Developer Experience']
-      },
+        title: '🔬 AI Scientist @ Molecular You',
+        description: 'Developed and implemented a secure dual-LLM architecture with Retrieval-Augmented Generation (RAG) integration for personalized healthcare recommendations. Created sophisticated prompt engineering techniques and knowledge base integration systems running locally to ensure data privacy while delivering clinically relevant insights to patients and healthcare providers.',
+        date: 'August, 2024 - December, 2024',
+        tags: ['LLM Research', 'LangFlow', 'Ollama', 'Security Analysis', 'Performance Metrics'],
+        link: '',
+        imageUrl: '/images/molecular-you.jpg'
+      }
     ]
   },
   'educator': {
     id: 'educator',
-    title: 'Educator',
-    emoji: '👨‍🏫',
+    title: 'Business Strategist',
+    emoji: '📈',
     color: 'rgba(139, 92, 246, 1)',
-    description: 'Who creates content that makes it easier to adopt new technologies.',
+    description: 'Who transforms healthcare innovations into commercially viable solutions with strategic market entry and sustainable growth models',
     inspirations: [
       {
-        name: 'Jesse Michels',
-        role: 'Creator of American Alchemy',
-        image: '/inspirations/jesse-michels.jpg',
+        name: 'Clayton Christensen',
+        role: 'Late HBS Professor, Innovation Expert',
+        image: '/inspirations/Clayton-Christensen.jpg',
         lessons: [
-          'Challenge established norms and explore unconventional perspectives',
-          'Connect diverse fields to create more engaging educational content',
-          'Leverage multiple content formats to reach different learning styles',
-          'Foster critical thinking through thought-provoking discussions'
+          'Identify disruptive innovations that can transform healthcare delivery',
+          'Build business models that create value for underserved healthcare markets',
+          'Apply jobs-to-be-done thinking to understand patient and provider needs',
+          'Challenge conventional assumptions about healthcare business structures'
         ]
       },
       {
-        name: 'Patrick Bet-David',
-        role: 'Founder of Valuetainment',
-        image: '/inspirations/patrick-bet-david.jpg',
+        name: 'Judy Faulkner',
+        role: 'Founder & CEO of Epic Systems',
+        image: '/inspirations/Judy-Faulkner.jpg',
         lessons: [
-          'Blend educational content with engaging storytelling ("valuetainment")',
-          'Break down complex concepts into simple, actionable steps',
-          'Create content across multiple formats to reach diverse audiences',
-          'Make learning memorable through practical examples and humor'
+          'Maintain unwavering focus on healthcare product excellence and usability',
+          'Build technology companies with long-term vision and independence',
+          'Create integrated systems that address complex healthcare challenges',
+          'Prioritize customer needs over short-term business gains'
         ]
       },
       {
-        name: 'Jeff Delaney',
-        role: 'Creator of Fireship.io',
-        image: '/inspirations/jeff-delaney.jpg',
+        name: 'David Feinberg',
+        role: 'CEO of Oracle Health & Former VP of Google Health',
+        image: '/inspirations/David-Feinberg.jpg',
         lessons: [
-          'Develop a distinctive voice and style in educational content',
-          'Create concise, focused content that respects developers\' time',
-          'Make learning addictive through short, high-impact tutorials',
-          'Balance consistency with exploring diverse technical topics'
+              'Bridge technology ecosystems with healthcare delivery systems',
+              'Scale digital health innovations across diverse clinical environments',
+              'Implement data-driven approaches to healthcare transformation',
+              'Align technological capabilities with healthcare business needs'
         ]
-      },
-      {
-        name: 'Andreas Antonopoulos',
-        role: 'Bitcoin Educator & Author',
-        image: '/inspirations/andreas-antonopoulos.jpg',
-        lessons: [
-          'Break down complex technical concepts using relatable analogies',
-          'Maintain perpetual curiosity even as an established expert',
-          'Focus on foundational knowledge over trendy topics',
-          'Connect technical concepts to broader societal implications'
-        ]
-      },
-      {
-        name: 'Fidias',
-        role: 'YouTuber & European Parliament Member',
-        image: '/inspirations/fidias.jpg',
-        lessons: [
-          'Blend education with entertainment to maximize engagement',
-          'Build authentic connections through consistent audience interaction',
-          'Adapt content strategy based on platform-specific dynamics',
-          'Turn complex topics into relatable, shareable content'
-        ]
-      },
-      {
-        name: 'Austen Allred',
-        role: 'Co-founder & CEO of BloomTech',
-        image: '/inspirations/austen-allred.jpg',
-        lessons: [
-          'Align educational incentives with student outcomes',
-          'Focus on hands-on, project-based learning over lectures',
-          'Use technology to personalize the learning experience',
-          'Build systems that make quality education more accessible'
-        ]
-      },
+      }
     ],
     experiences: [
       {
-        title: '🇺🇸 America 2.0 Substack',
-        description: 'Publishing a weekly Substack exploring paths to accelerate humanity towards a Golden Age. Built an engaged audience of 500+ readers, focusing on concepts like democratizing human flourishing, Society Stack, and foundational technologies for local resilience.',
-        date: '2024',
-        tags: ['Digital Publishing', 'Future Studies', 'Systems Thinking', 'Societal Innovation'],
-        link: 'https://substack.garysheng.com'
+        title: '📱 Molecular You - Strategy & Commercialization Associate',
+        description: 'Designed and evaluated business strategies for U.S. market entry through comprehensive analysis of stakeholder needs, focusing on strategic partnerships with private pay clinics and reimbursement pathways. Conducted thorough portfolio analysis of U.S. Alzheimer\'s disease market and developed data-driven insights to guide strategic decision-making for market penetration.',
+        date: 'May-Aug 2024',
+        tags: ['Market Analysis', 'Go-to-Market Strategy', 'Healthcare Partnerships', 'Reimbursement Models'],
+        link: ''
       },
       {
-        title: '🗽 Co-Founder & Chief Innovation Officer at Civics Unplugged',
-        description: 'Built first curriculum, designed mentorship program, and led cultivation of global, digital-first community of young civic innovators now consisting of 2000+ alumni across 80+ countries. Created Dream DAO to train students on web3 for positive impact. Honored by Forbes 30 Under 30.',
-        date: '2019-2022',
-        tags: ['Community Building', 'Curriculum Design', 'Web3 Education', 'Youth Empowerment']
+        title: ' 🚀 B-ALIVE STARTUP - Business Development and Marketing Advisor',
+        description: 'Conducted comprehensive market analysis of anti-CD38 antibody therapy market and antibody engineering partnerships, providing strategic revenue forecasts and competitive intelligence. Created comprehensive NPV valuation models integrating DCF analysis while identifying and prioritizing critical business workstreams including patent strategy and proof-of-concept acceleration.',
+        date: 'Jan-May 2024',
+        tags: ['Biotech Commercialization', 'DCF Valuation', 'Patent Strategy', 'Competitive Intelligence'],
+        link: ''
       },
       {
-        title: '🎥 Cultural Commentary on TikTok',
-        description: 'Built an audience of 130,000+ followers in a few months through engaging content focused on centrist and independent politics, demonstrating ability to connect with Gen-Z audience on complex topics.',
-        date: '2022',
-        tags: ['Social Media Education', 'Political Discourse', 'Digital Content Creation']
+        title: '🏥 Dartmouth Health - Healthcare Strategy Analyst',
+        description: 'Conducted market research and business model development for innovative rural healthcare delivery system at Dartmouth Health System. Analyzed reimbursement pathways and stakeholder needs to create sustainable implementation strategy for extending hospital-level care to rural homes.',
+        date: 'Apr-May 2024',
+        tags: ['Rural Healthcare', 'Alternative Care Models', 'Market Research', 'Healthcare Access'],
+        link: ''
+      },
+      {
+        title: '⚡ Cardinal Health - Senior Specialist, Quality Assurance',
+        description: 'Led Kaizen events, delivering $1M+ cost savings by strategically improving U.S. Manufacturing processes. Programmed a reusable 21-step VBA script that structured, sanitized, analyzed, and visualized vast amounts of raw data instantly, saving 100+ hours while maintaining the highest quality standards for healthcare products.',
+        date: '2020-2023',
+        tags: ['Kaizen', 'Cost Optimization', 'Lean Six Sigma', 'Data Automation', 'Quality Systems'],
+        link: ''
       }
+
     ]
   },
   'movement-builder': {
     id: 'movement-builder',
-    title: 'Movement Builder',
-    emoji: '🔥',
+    title: 'Healthcare Innovator',
+    emoji: '🔬',
     color: 'rgba(236, 72, 153, 1)',
-    description: 'Who creates communities and events that inspire thousands to get involved',
+    description: 'Who reimagines healthcare delivery through technology integration and patient-centered design',
     inspirations: [
       {
-        name: 'Vitalik Buterin',
-        role: 'Co-founder of Ethereum',
-        image: '/inspirations/vitalik-buterin.jpg',
+        name: 'Paul Farmer',
+        role: 'Co-founder of Partners In Health, Global Health Pioneer',
+        image: '/inspirations/Paul-Farmer.jpg',
         lessons: [
-          'Build platforms that enable new possibilities and empower communities',
-          'Foster open dialogue and transparent collaboration across diverse groups',
-          'Experiment with innovative ideas through real-world implementations',
-          'Balance technological vision with practical community needs'
+            'Address healthcare disparities through pragmatic solidarity',
+            'Build systems that deliver high-quality care in resource-constrained settings',
+            'Combine technological innovation with social understanding',
+            'Maintain unwavering commitment to healthcare as a human right'
         ]
       },
       {
-        name: 'Naval Ravikant',
-        role: 'Co-founder of AngelList',
-        image: '/inspirations/naval-ravikant.jpg',
+        name: 'Devi Shetty',
+        role: 'Founder of Narayana Health',
+        image: '/inspirations/Devi-Shetty.jpg',
         lessons: [
-          'Leverage specific knowledge and technology to create unique value',
-          'Master both building and storytelling to grow movements',
-          'Play long-term games with long-term people',
-          'Create platforms that enable others to succeed'
+            'Creating innovative healthcare delivery models that increase accessibility',
+            'Scaling high-quality care through process innovation and efficiency',
+            'Challenging conventional assumptions about healthcare costs',
+            'Designing systems that combine excellence with affordability'
         ]
       },
       {
-        name: 'Vivek Ramaswamy',
-        role: 'Founder of Roivant & Strive; Co-founder of DOGE',
-        image: '/inspirations/vivek-ramaswamy.jpg',
+        name: 'Eric Topol',
+        role: 'Founder & Director of Scripps Research Translational Institute',
+        image: '/inspirations/Eric-Topol.jpg',
         lessons: [
-          'Be contrarian but right - challenge consensus with solid reasoning',
-          'Build movements across multiple platforms and mediums',
-          'Articulate clear, distinctive positions on complex issues',
-          'Scale impact through both digital and traditional channels'
+          'Reimagine healthcare delivery through thoughtful integration of AI and digital tools',
+          'Challenge the status quo of medical practice with evidence-based innovation',
+          'Balance technological advancement with the human elements of healthcare',
+          'Advocate for patient empowerment through technology and data ownership'
         ]
       },
+      {
+        name: 'Atul Gawande',
+        role: 'Surgeon, Writer, Public Health Leader',
+        image: '/inspirations/Atul-Gawande.jpg',
+        lessons: [
+            'Implement systematic improvements that enhance patient safety',
+            'Communicate complex healthcare concepts with clarity and humanity',
+            'Use simple interventions like checklists to achieve significant outcomes',
+            'Approach healthcare challenges with both analytical rigor and compassion'
+        ]
+      }
     ],
     experiences: [
       {
-        title: '🏘️ Zuzalu Ecosystem Contributor',
-        description: 'Early contributor to the Zuzalu ecosystem, helping pioneer the concept of popup villages and innovative community living experiments.',
-        date: '2024',
-        tags: ['Community Design', 'Innovation', 'Future Cities'],
-        link: 'https://www.palladiummag.com/2023/10/06/why-i-built-zuzalu/'
+        title: '🏥 Clinical AI Integration: Capstone Project (MBA/MPH Thesis)',
+        description: 'Conducting in-depth research through literature review and interviews with 10+ leaders in healthcare AI to develop a structured implementation framework addressing technical infrastructure, clinical workflow integration, and business sustainability. Analyzing ethical considerations and bias mitigation strategies for AI deployment in diverse healthcare environments.',
+        date: '2024-2025',
+        tags: ['Clinical Workflow Integration', 'Ethical AI','Business Sustainability', 'Implementation Frameworks'],
+        link: ''
       },
       {
-        title: '🌱 Web3 Impact Community Builder',
-        description: 'Actively contributed to popularizing the convergence of web3 and social impact through regular content creation and supporting early-stage projects at the intersection of crypto and social good.',
-        date: '2022-2024',
-        tags: ['Web3', 'Social Impact', 'Community Building', 'Content Creation']
+        title: '🌡️ Master of Public Health - Geisel School of Medicine at Dartmouth',
+        description: 'Pursuing specialized training in healthcare systems, population health, and evidence-based intervention design. Focusing on integrating technological innovation with public health approaches to create scalable solutions for healthcare challenges across diverse populations.',
+        date: '2024-2025',
+        tags: ['Population Health', 'Evidence-Based Medicine', 'Intervention Strategy', 'Preventive Care'],
+        link: ''
       },
       {
-        title: '🍍 Co-Founder of Dancing Pineapple',
-        description: 'Created and grew a feel-good electronic music brand that promoted artists across four continents. Produced 24 concerts in NYC and LA, helping launch artists who later performed at major festivals like Coachella and EDC Vegas. Curated therapeutic electronic music that resonated deeply with audiences.',
-        date: '2015-2019',
-        tags: ['Music Curation', 'Event Production', 'Artist Development', 'Brand Building']
+        title: '💡Pro Bono Consultant - Windham Aging Non-profit',
+        description: 'Applied business strategy and healthcare expertise to support elderly care non-profit organization through Tuck Community Consulting. Developed innovative approaches to service delivery and operational efficiency for vulnerable populations.',
+        date: '2023-2024',
+        tags: ['Non-profit Strategy', 'Community Health', 'Operational Efficiency', 'Social Impact'],
+        link: ''
       },
       {
-        title: '⚖️ Criminal Justice Reform Advocate',
-        description: 'Built and grew a Facebook page from scratch to 800,000 followers, focused on criminal justice reform and raising awareness about key issues.',
-        date: '2017',
-        tags: ['Digital Advocacy', 'Social Justice', 'Community Growth']
+        title: '❤️ Patient Care Ambassador - Emergency Department, St. Boniface Hospital',
+        description: 'Volunteered at the Emergency Department at St. Boniface Hospital, gaining valuable frontline healthcare experience and developing deep understanding of patient needs and healthcare delivery challenges.',
+        date: '2019-2020',
+        tags: ['Patient Experience', 'Healthcare Operations', 'Emergency Medicine', 'Patient Advocacy'],
+        link: ''
       },
       {
-        title: '🕺🏻 College Dance Team Leader',
-        description: 'Led a premier dance team that consistently packed the largest campus auditorium for showcases, demonstrating early leadership in community building through arts and performance.',
-        date: 'College',
-        tags: ['Leadership', 'Performance Arts', 'Event Organization']
+        title: '🧪 Apotex Inc. - Research Scientist, R&D Chemistry Department',
+        description: 'Designed and executed innovative experimental projects to advance drug development and upstream efficiencies. Led cross-functional projects to optimize production and isolation of Active Pharmaceutical Ingredients (APIs), earning multiple awards for collaboration, perseverance, quality, and successfully fulfilling third-party contracts.',
+        date: '2018-2020',
+        tags: ['Pharmaceutical R&D', 'Drug Development','Cross-functional Leadership', 'Process Validation'],
+        link: ''
       },
       {
-        title: '🎮 High School Community Builder',
-        description: 'Organized and negotiated sanctioned campus dance parties and LAN gaming events, bringing together different student communities through shared experiences.',
-        date: 'High School',
-        tags: ['Event Planning', 'Community Building', 'Gaming Culture']
+        title: '🥼 International Medical University - Research Assistant',
+        description: 'Led two major research projects: (1) Histological Studies on Mice Myocardium - Conducted histological analysis of cardiac tissue to evaluate drug effects, managed tissue preparation, and performed H&E/Trichrome staining for pathological evaluation. (2) In-vitro Assays of Snake Venom Metalloproteases - Optimized FPLC protocols to isolate SVMPs from 13 venom samples, implemented Bradford assays for quantification, characterized properties through Zymography and SDS-PAGE, and established hemolytic activity profiles. Developed documentation including procedures, calculations, and research reports.',
+        date: '2014-2015',
+        tags: ['Protein Chromatography', 'Histological Analysis', 'Enzymatic Assays', 'Basic Research'],
+        link: ''
       }
     ]
   }

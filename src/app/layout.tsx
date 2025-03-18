@@ -7,32 +7,32 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://devrel.garysheng.com'),
-  title: "Gary Sheng's DevRel Portfolio",
-  description: "Software Engineer, Educator, and Movement Builder passionate about empowering developers and building impactful communities.",
+  metadataBase: new URL('https://aliyousefli.com'),
+  title: "Amirali (Ali) Yousefli's Portfolio",
+  description: "Healthcare AI Developer, Business Strategist, and Healthcare Innovator passionate about transforming healthcare through AI and business innovation.",
   openGraph: {
-    title: "Gary Sheng's DevRel Portfolio",
-    description: "Software Engineer, Educator, and Movement Builder passionate about empowering developers and building impactful communities.",
+    title: "Amirali (Ali) Yousefli's Portfolio",
+    description: "Healthcare AI Developer, Business Strategist, and Healthcare Innovator passionate about transforming healthcare through AI and business innovation.",
     images: [
       {
         url: "/meta.png",
         width: 1788,
         height: 1370,
-        alt: "Gary Sheng's DevRel Portfolio"
+        alt: "Amirali (Ali) Yousefli's Portfolio"
       }
     ],
     type: 'website',
-    siteName: "Gary Sheng's DevRel Portfolio"
+    siteName: "Amirali (Ali) Yousefli's Portfolio"
   },
   twitter: {
     card: "summary_large_image",
-    title: "Gary Sheng's DevRel Portfolio",
-    description: "Software Engineer, Educator, and Movement Builder passionate about empowering developers and building impactful communities.",
+    title: "Amirali (Ali) Yousefli's Portfolio",
+    description: "Healthcare AI Developer, Business Strategist, and Healthcare Innovator passionate about transforming healthcare through AI and business innovation.",
     images: ["/meta.png"],
-    creator: "@garysheng"
+    creator: "@aliyousefli"
   },
   other: {
-    'share-id': 'devrel-gary-sheng'
+    'share-id': 'portfolio-ali-yousefli'
   }
 };
 

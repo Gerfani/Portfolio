@@ -29,8 +29,8 @@ interface Link {
 }
 
 const MAIN_NODE: Node = {
-  id: 'gary',
-  label: ['Gary Sheng'],
+  id: 'ali',
+  label: ['Amirali (Ali) Yousefli'],
   emoji: '',
   size: 200,
   type: 'main'
@@ -39,21 +39,21 @@ const MAIN_NODE: Node = {
 const PERSONA_NODES: Node[] = [
   { 
     id: 'engineer', 
-    label: ['Software', 'Engineer'], 
+    label: ['AI', 'Scientist'], 
     emoji: portfolioData.engineer.emoji,
     size: 160, 
     type: 'persona' 
   },
   { 
     id: 'educator', 
-    label: ['Educator'], 
+    label: ['Business', 'Strategist'], 
     emoji: portfolioData.educator.emoji,
     size: 160, 
     type: 'persona' 
   },
   { 
     id: 'movement-builder', 
-    label: ['Movement', 'Builder'], 
+    label: ['Healthcare', 'Innovator'], 
     emoji: portfolioData['movement-builder'].emoji,
     size: 160, 
     type: 'persona' 
@@ -299,7 +299,7 @@ export function BubbleChart({ className, selectedPersona, onSelectPersona, onSel
     // Add profile image for main node
     nodeElements.filter(d => d.type === 'main')
       .append('image')
-      .attr('href', '/gary.png')
+      .attr('href', '/Amirali.png')
       .attr('width', MAIN_NODE.size)
       .attr('height', MAIN_NODE.size)
       .attr('x', -MAIN_NODE.size / 2)
@@ -376,7 +376,7 @@ export function BubbleChart({ className, selectedPersona, onSelectPersona, onSel
             onClick={scrollToPersonas}
             className="text-gray-500 text-sm hover:text-accent1 transition-colors cursor-pointer animate-pulse"
           >
-            ☝️ Click a bubble to explore each persona that makes up my DevRel journey
+            ☝️ Click a bubble to explore each persona that makes up my healthcare innovation journey
           </button>
         </div>
       )}

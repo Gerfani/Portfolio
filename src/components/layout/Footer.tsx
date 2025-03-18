@@ -2,19 +2,14 @@ import Image from 'next/image';
 
 const socialLinks = [
   {
-    label: 'GitHub',
-    href: 'https://github.com/garysheng',
-    icon: '/social/github.svg'
-  },
-  {
-    label: 'X',
-    href: 'https://x.com/garysheng',
-    icon: '/social/x.svg'
-  },
-  {
     label: 'LinkedIn',
-    href: 'https://linkedin.com/in/garysheng',
+    href: 'https://linkedin.com/in/aysf',
     icon: '/social/linkedin.svg'
+  },
+  {
+    label: 'GitHub',
+    href: 'https://github.com',
+    icon: '/social/github.svg'
   }
 ];
 
@@ -24,48 +19,47 @@ export function Footer() {
       <div className="max-w-5xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div>
-            <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
-            <div className="space-y-2">
+            <h3 className="text-lg font-semibold mb-0">Education</h3>
+            <div className="space-y-0">
               <a 
-                href="https://www.garysheng.com" 
+                href="https://tuck.dartmouth.edu" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="block text-muted-foreground hover:text-accent1 transition-colors"
               >
-                garysheng.com
+                MBA Candidate @ Tuck School of Business at Dartmouth
               </a>
               <a 
-                href="https://github.com/garysheng/devrelportfolio.git" 
+                href="https://geiselmed.dartmouth.edu" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="block text-muted-foreground hover:text-accent1 transition-colors"
               >
-                Fork this template on GitHub
+                MPH Candidate @ Geisel School of Medicine at Dartmouth
+              </a>
+              <a 
+                href="https://www.umanitoba.ca/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="block text-muted-foreground hover:text-accent1 transition-colors"
+              >
+                B.Sc. Biology, Chemistry @ University of Manitoba
               </a>
             </div>
           </div>
           <div id="contact">
             <h3 className="text-lg font-semibold mb-4">Contact</h3>
             <p className="text-muted-foreground">
-              Feel free to DM me on{' '}
+              Feel free to connect with me on{' '}
               <a 
-                href="https://x.com/garysheng" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="text-accent1 hover:text-accent2 transition-colors"
-              >
-                X
-              </a>
-              {' '}or{' '}
-              <a 
-                href="https://linkedin.com/in/garysheng" 
+                href="https://linkedin.com/in/aysf" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-accent1 hover:text-accent2 transition-colors"
               >
                 LinkedIn
               </a>
-              {' '}if you&apos;d like to chat about supercharging your developer ecosystem!
+              {' '}if you&apos;d like to discuss healthcare innovation or AI applications!
             </p>
           </div>
         </div>

@@ -25,7 +25,7 @@ export function Header({ className, onSelectPersona }: HeaderProps) {
         <div>
           <h1 className="text-2xl font-bold tracking-tight relative">
             <span className="animate-shimmer bg-[linear-gradient(110deg,#fff,15%,#6366F1,35%,#8B5CF6,50%,#EC4899,65%,#fff,85%,#fff)] bg-[length:200%_100%] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent]">
-              Gary Sheng
+              Amirali (Ali) Yousefli
             </span>
           </h1>
           <p className="text-sm text-muted-foreground">
@@ -33,27 +33,27 @@ export function Header({ className, onSelectPersona }: HeaderProps) {
               onClick={() => handlePersonaClick('engineer')}
               className="transition-colors hover:text-[#6366F1] cursor-pointer"
             >
-              Software Engineer
+              AI Scientist
             </button>
             {' • '}
             <button 
               onClick={() => handlePersonaClick('educator')}
               className="transition-colors hover:text-[#8B5CF6] cursor-pointer"
             >
-              Educator
+              Business Strategist
             </button>
             {' • '}
             <button 
               onClick={() => handlePersonaClick('movement-builder')}
               className="transition-colors hover:text-[#EC4899] cursor-pointer"
             >
-              Movement Builder
+              Healthcare Innovator
             </button>
           </p>
         </div>
         <div className="flex items-center gap-4">
-          <Navigation />
-          <MobileNav />
+          <Navigation className="ml-auto" />
+          <MobileNav className="ml-2" />
         </div>
       </div>
     </header>
