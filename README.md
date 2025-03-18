@@ -1,4 +1,4 @@
-# DevRel Portfolio Template
+# AYPortfolio Template
 
 👋 Welcome! This is an open-source portfolio template designed to help developers, educators, and community builders showcase their unique journey and impact. Feel free to fork this repository and make it your own!
 
@@ -28,7 +28,7 @@
    ```
 3. Install dependencies:
    ```bash
-   cd devrel-portfolio
+   cd AYportfolio
    npm install
    ```
 4. Start the development server:
@@ -86,5 +86,5 @@ Special thanks to:
 ## 🌟 Show Your Portfolio!
 
 Using this template? Add your portfolio to our showcase by submitting a pull request!
-# devrelportfolio
-# devrelportfolio
+# AYportfolio
+
