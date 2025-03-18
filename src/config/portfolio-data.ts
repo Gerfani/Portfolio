@@ -59,7 +59,7 @@ export const portfolioData: Record<Persona['id'], Persona> = {
         description: 'Developed a self-service medical consultation web application, enabling patients to receive AI-generated medical guidance. System workflow: symptom assessment, differential diagnosis generation, Perplexity API research integration, follow-up questions for final diagnoses, personalized treatment plans, and comprehensive pdf reports for patients to share with healthcare providers. FastAPI Python backend, MongoDB for data storage, AI integrations (OpenAI and Perplexity APIs), React 18 & Bootstrap 5 for the responsive frontend, connected through RESTful API endpoints with Axios.',
         date: 'March, 2025',
         tags: ['Web Development', 'AI Integration', 'Healthcare AI', 'Diagnostic System', 'Patient Care'],
-        link: '',
+        link: 'https://caringai.ali-yousefli.com/',
         videoUrl: 'https://www.youtube.com/embed/YmiuWOxghm4'
       },
       {
