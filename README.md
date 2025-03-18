@@ -24,7 +24,7 @@
 1. Fork this repository
 2. Clone your forked repository:
    ```bash
-   git clone https://github.com/yourusername/devrel-portfolio.git
+   git clone https://github.com/aysfl1/AYportfolio.git
    ```
 3. Install dependencies:
    ```bash
