@@ -5,11 +5,6 @@ const socialLinks = [
     label: 'LinkedIn',
     href: 'https://linkedin.com/in/aysf',
     icon: '/social/linkedin.svg'
-  },
-  {
-    label: 'GitHub',
-    href: 'https://github.com',
-    icon: '/social/github.svg'
   }
 ];
 
