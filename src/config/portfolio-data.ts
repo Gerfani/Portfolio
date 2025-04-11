@@ -56,7 +56,7 @@ export const portfolioData: Record<Persona['id'], Persona> = {
     experiences: [
       {
         title: '🩺 Dr. CaringAI Web Application',
-        description: 'Developed a self-service medical consultation web application, enabling patients to receive AI-generated medical guidance. System workflow: symptom assessment, differential diagnosis generation, Perplexity API research integration, follow-up questions for final diagnoses, personalized treatment plans, and comprehensive pdf reports for patients to share with healthcare providers. FastAPI Python backend, MongoDB for data storage, AI integrations (OpenAI and Perplexity APIs), React 18 & Bootstrap 5 for the responsive frontend, connected through RESTful API endpoints with Axios.',
+        description: 'Developed a self-service medical consultation web application, enabling patients to receive AI-generated medical guidance. System workflow: symptom assessment, differential diagnosis generation, Perplexity API research integration, follow-up questions for final diagnoses, personalized treatment plans, and comprehensive pdf reports for patients to share with healthcare providers. FastAPI Python backend, MongoDB for data storage, AI integrations (OpenAI and Perplexity APIs), React 18 & Bootstrap 5 for the responsive frontend, connected through RESTful API endpoints with Axios. To access Dr.Caring AI click on this link: <a href="https://caringai.ali-yousefli.com/" target="_blank">https://caringai.ali-yousefli.com/</a>',
         date: 'March, 2025',
         tags: ['Web Development', 'AI Integration', 'Healthcare AI', 'Diagnostic System', 'Patient Care'],
         link: 'https://caringai.ali-yousefli.com/',
