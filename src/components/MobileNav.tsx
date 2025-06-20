@@ -15,7 +15,7 @@ interface MobileNavProps {
   onSelectPersona?: (id: PersonaId) => void;
 }
 
-export function MobileNav({ className, onSelectPersona }: MobileNavProps) {
+export function MobileNav({ className }: MobileNavProps) {
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
     if (element) {

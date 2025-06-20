@@ -12,7 +12,7 @@ interface NavigationProps {
   onSelectPersona?: (id: PersonaId) => void;
 }
 
-export function Navigation({ className, onSelectPersona }: NavigationProps) {
+export function Navigation({ className }: NavigationProps) {
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
     if (element) {
