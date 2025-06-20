@@ -19,7 +19,7 @@ export function Header({ className, onSelectPersona }: HeaderProps) {
   return (
     <header className={cn(
       'fixed top-0 left-0 right-0 z-50 py-4 px-6',
-      'bg-gradient-to-b from-black/80 to-black/0 backdrop-blur-sm',
+      'bg-gradient-to-b from-white/90 to-white/0 dark:from-black/80 dark:to-black/0 backdrop-blur-sm',
       className
     )}>
       <div className="max-w-7xl mx-auto flex items-center justify-between">

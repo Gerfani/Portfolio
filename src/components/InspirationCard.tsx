@@ -8,7 +8,7 @@ interface InspirationCardProps {
 
 export function InspirationCard({ inspiration, className }: InspirationCardProps) {
   return (
-    <Card className={`p-6 bg-black/60 backdrop-blur-sm ${className}`}>
+    <Card className={`p-6 dark:bg-black/60 dark:backdrop-blur-sm ${className}`}>
       <div className="flex items-center gap-3 mb-4">
         <div className="h-12 w-12 rounded-full overflow-hidden">
           <img 
