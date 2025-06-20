@@ -39,7 +39,7 @@ const MAIN_NODE: Node = {
 const PERSONA_NODES: Node[] = [
   { 
     id: 'engineer', 
-    label: ['AI', 'Scientist'], 
+    label: ['Healthcare AI', 'Scientist'], 
     emoji: portfolioData.engineer.emoji,
     size: 160, 
     type: 'persona' 

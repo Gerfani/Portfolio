@@ -55,7 +55,7 @@ export const portfolioData: Record<Persona['id'], Persona> = {
     ],
     experiences: [
       {
-        title: 'Patients Empowered Web Application',
+        title: '🧭 Patients Empowered Web Application',
         description: 'This web app leverage AI advancements to empower patients in healthcare interactions by equipping them with knowledge to understand their medical conditions, enabling effective self-advocacy and participation in treatment decisions, facilitating informed second opinions on diagnoses and treatment plans, and reducing medical errors through patient education and engagement. FastAPI Python backend (deployed on Railway), MongoDB for data storage, Supabase for sign-in and authentication, AI integrations (OpenAI, Anthropic and Perplexity APIs), React & CSS for the responsive frontend',
         date: 'April, 2025',
         tags: ['Clinical Workflow', 'AI Integration', 'Healthcare AI', 'Diagnostic System', 'Patient Empowerment'],
@@ -191,6 +191,17 @@ export const portfolioData: Record<Persona['id'], Persona> = {
     description: 'Who reimagines healthcare delivery through technology integration and patient-centered design',
     inspirations: [
       {
+        name: 'Eric Topol',
+        role: 'Founder & Director of Scripps Research Translational Institute',
+        image: '/inspirations/Eric-Topol.jpg',
+        lessons: [
+          'Reimagine healthcare delivery through thoughtful integration of AI and digital tools',
+          'Challenge the status quo of medical practice with evidence-based innovation',
+          'Balance technological advancement with the human elements of healthcare',
+          'Advocate for patient empowerment through technology and data ownership'
+        ]
+      },
+      {
         name: 'Paul Farmer',
         role: 'Co-founder of Partners In Health, Global Health Pioneer',
         image: '/inspirations/Paul-Farmer.jpg',
@@ -210,17 +221,6 @@ export const portfolioData: Record<Persona['id'], Persona> = {
             'Scaling high-quality care through process innovation and efficiency',
             'Challenging conventional assumptions about healthcare costs',
             'Designing systems that combine excellence with affordability'
-        ]
-      },
-      {
-        name: 'Eric Topol',
-        role: 'Founder & Director of Scripps Research Translational Institute',
-        image: '/inspirations/Eric-Topol.jpg',
-        lessons: [
-          'Reimagine healthcare delivery through thoughtful integration of AI and digital tools',
-          'Challenge the status quo of medical practice with evidence-based innovation',
-          'Balance technological advancement with the human elements of healthcare',
-          'Advocate for patient empowerment through technology and data ownership'
         ]
       },
       {
