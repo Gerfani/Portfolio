@@ -1,4 +1,5 @@
 import { Button } from '@/components/ui/button';
+import type { PersonaId } from '@/types/portfolio';
 
 const navItems = [
   { id: 'personas', label: 'Personas' },
@@ -8,9 +9,10 @@ const navItems = [
 
 interface NavigationProps {
   className?: string;
+  onSelectPersona?: (id: PersonaId) => void;
 }
 
-export function Navigation({ className }: NavigationProps) {
+export function Navigation({ className, onSelectPersona }: NavigationProps) {
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
     if (element) {

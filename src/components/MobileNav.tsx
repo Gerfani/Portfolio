@@ -2,6 +2,8 @@ import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger, SheetTitle } from '@/components/ui/sheet';
 import { Menu } from 'lucide-react';
 
+import type { PersonaId } from '@/types/portfolio';
+
 const navItems = [
   { id: 'personas', label: 'Personas' },
   { id: 'pillars', label: 'Core Expertise' },
@@ -10,9 +12,10 @@ const navItems = [
 
 interface MobileNavProps {
   className?: string;
+  onSelectPersona?: (id: PersonaId) => void;
 }
 
-export function MobileNav({ className }: MobileNavProps) {
+export function MobileNav({ className, onSelectPersona }: MobileNavProps) {
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
     if (element) {

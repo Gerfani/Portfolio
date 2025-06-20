@@ -31,7 +31,7 @@ export function MainBubbleBio({ onSelectPersona }: MainBubbleBioProps) {
                 onClick={() => handlePersonaClick('engineer')}
                 className="text-[#6366F1] bg-[#6366F1]/10 px-1 rounded hover:bg-[#6366F1]/20 transition-colors"
               >
-                AI scientist
+                Healthcare AI scientist
               </button>,{' '}
               <button 
                 onClick={() => handlePersonaClick('educator')}
@@ -57,9 +57,9 @@ export function MainBubbleBio({ onSelectPersona }: MainBubbleBioProps) {
           </div>
           <button 
             onClick={scrollToPersonas}
-            className="text-gray-400 text-base hover:text-accent1 transition-colors cursor-pointer animate-pulse mt-4"
+            className="text-muted-foreground text-base hover:text-accent1 transition-colors cursor-pointer animate-pulse mt-4"
           >
-            ✨ Click on the AI Scientist, Business Strategist, or Healthcare Innovator bubbles to explore how each persona contributes to my healthcare innovation approach
+            ✨ Click on the Healthcare AI Scientist, Business Strategist, or Healthcare Innovator bubbles to explore how each persona contributes to my healthcare innovation approach
           </button>
         </div>
       </Card>

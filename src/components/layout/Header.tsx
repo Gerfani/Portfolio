@@ -1,6 +1,7 @@
 import { cn } from '@/lib/utils';
 import { Navigation } from '@/components/Navigation';
 import { MobileNav } from '@/components/MobileNav';
+import { ThemeToggle } from '@/components/ThemeToggle';
 import type { PersonaId } from '@/types/portfolio';
 
 interface HeaderProps {
@@ -33,7 +34,7 @@ export function Header({ className, onSelectPersona }: HeaderProps) {
               onClick={() => handlePersonaClick('engineer')}
               className="transition-colors hover:text-[#6366F1] cursor-pointer"
             >
-              AI Scientist
+              Healthcare AI Scientist
             </button>
             {' • '}
             <button 
@@ -52,10 +53,15 @@ export function Header({ className, onSelectPersona }: HeaderProps) {
           </p>
         </div>
         <div className="flex items-center gap-4">
-          <Navigation className="ml-auto" />
-          <MobileNav className="ml-2" />
+          <div className="flex items-center space-x-2">
+            <ThemeToggle />
+            <div className="md:hidden">
+              <MobileNav onSelectPersona={onSelectPersona} />
+            </div>
+          </div>
+          <Navigation className="ml-auto" onSelectPersona={onSelectPersona} />
         </div>
       </div>
     </header>
   );
-} 
+}
