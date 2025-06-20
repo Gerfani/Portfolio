@@ -3,7 +3,7 @@ import type { Persona } from '@/types/portfolio';
 export const portfolioData: Record<Persona['id'], Persona> = {
   'engineer': {
     id: 'engineer',
-    title: 'HealthcareAI Scientist',
+    title: 'Healthcare AI Scientist',
     emoji: '👨‍💻',
     color: 'rgba(99, 102, 241, 1)',
     description: 'Who builds intelligent systems that augment healthcare delivery with a focus on patient outcomes and clinical decision support',
