@@ -55,6 +55,14 @@ export const portfolioData: Record<Persona['id'], Persona> = {
     ],
     experiences: [
       {
+        title: 'Patients Empowered Web Application',
+        description: 'This web app leverage AI advancements to empower patients in healthcare interactions by equipping them with knowledge to understand their medical conditions, enabling effective self-advocacy and participation in treatment decisions, facilitating informed second opinions on diagnoses and treatment plans, and reducing medical errors through patient education and engagement. FastAPI Python backend (deployed on Railway), MongoDB for data storage, Supabase for sign-in and authentication, AI integrations (OpenAI, Anthropic and Perplexity APIs), React & CSS for the responsive frontend',
+        date: 'April, 2025',
+        tags: ['Clinical Workflow', 'AI Integration', 'Healthcare AI', 'Diagnostic System', 'Patient Empowerment'],
+        link: '',
+        videoUrl: 'https://www.youtube.com/watch?v=dNewsKw1XAU'
+      },
+      {
         title: '🩺 Dr. CaringAI Web Application',
         description: 'Developed a self-service medical consultation web application, enabling patients to receive AI-generated medical guidance. System workflow: symptom assessment, differential diagnosis generation, Perplexity API research integration, follow-up questions for final diagnoses, personalized treatment plans, and comprehensive pdf reports for patients to share with healthcare providers. FastAPI Python backend, MongoDB for data storage, AI integrations (OpenAI and Perplexity APIs), React 18 & Bootstrap 5 for the responsive frontend, connected through RESTful API endpoints with Axios.',
         date: 'March, 2025',
@@ -233,7 +241,8 @@ export const portfolioData: Record<Persona['id'], Persona> = {
         description: 'Conducting in-depth research through literature review and interviews with 10+ leaders in healthcare AI to develop a structured implementation framework addressing technical infrastructure, clinical workflow integration, and business sustainability. Analyzing ethical considerations and bias mitigation strategies for AI deployment in diverse healthcare environments.',
         date: '2024-2025',
         tags: ['Clinical Workflow Integration', 'Ethical AI','Business Sustainability', 'Implementation Frameworks'],
-        link: ''
+        link: '',
+        pdfUrl: '/pdfs/capstone-project.pdf'
       },
       {
         title: '🌡️ Master of Public Health - Geisel School of Medicine at Dartmouth',
