@@ -22,7 +22,7 @@ export function Footer() {
                 rel="noopener noreferrer"
                 className="block text-muted-foreground hover:text-accent1 transition-colors"
               >
-                MBA Candidate @ Tuck School of Business at Dartmouth
+                MBA - Tuck School of Business at Dartmouth
               </a>
               <a 
                 href="https://geiselmed.dartmouth.edu" 
@@ -30,7 +30,7 @@ export function Footer() {
                 rel="noopener noreferrer"
                 className="block text-muted-foreground hover:text-accent1 transition-colors"
               >
-                MPH Candidate @ Geisel School of Medicine at Dartmouth
+                MPH - Geisel School of Medicine at Dartmouth
               </a>
               <a 
                 href="https://www.umanitoba.ca/" 

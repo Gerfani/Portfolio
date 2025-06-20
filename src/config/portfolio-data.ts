@@ -60,7 +60,7 @@ export const portfolioData: Record<Persona['id'], Persona> = {
         date: 'April, 2025',
         tags: ['Clinical Workflow', 'AI Integration', 'Healthcare AI', 'Diagnostic System', 'Patient Empowerment'],
         link: '',
-        videoUrl: 'https://www.youtube.com/watch?v=dNewsKw1XAU'
+        videoUrl: 'https://www.youtube.com/embed/dNewsKw1XAU'
       },
       {
         title: '🩺 Dr. CaringAI Web Application',
