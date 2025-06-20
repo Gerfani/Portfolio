@@ -238,7 +238,7 @@ export const portfolioData: Record<Persona['id'], Persona> = {
     experiences: [
       {
         title: '🏥 Clinical AI Integration: Capstone Project (MBA/MPH Thesis)',
-        description: 'Conducting in-depth research through literature review and interviews with 10+ leaders in healthcare AI to develop a structured implementation framework addressing technical infrastructure, clinical workflow integration, and business sustainability. Analyzing ethical considerations and bias mitigation strategies for AI deployment in diverse healthcare environments.',
+        description: 'Conducting in-depth research through literature review and interviews with 15+ leaders in healthcare AI to develop a structured implementation framework addressing technical infrastructure, clinical workflow integration, and business sustainability. Analyzing ethical considerations and bias mitigation strategies for AI deployment in diverse healthcare environments.',
         date: '2024-2025',
         tags: ['Clinical Workflow Integration', 'Ethical AI','Business Sustainability', 'Implementation Frameworks'],
         link: '',
