@@ -2,9 +2,9 @@ import { Button } from '@/components/ui/button';
 import type { PersonaId } from '@/types/portfolio';
 
 const navItems = [
-  { id: 'personas', label: 'Personas' },
-  { id: 'pillars', label: 'Core Expertise' },
-  { id: 'contact', label: 'Contact' }
+  { id: 'personas', label: '@' },
+  { id: 'pillars', label: '@ @' },
+  { id: 'contact', label: '@' }
 ];
 
 interface NavigationProps {

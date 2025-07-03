@@ -30,33 +30,33 @@ interface Link {
 
 const MAIN_NODE: Node = {
   id: 'ali',
-  label: ['Amirali (Ali) Yousefli'],
+  label: ['@ @ @'],
   emoji: '',
   size: 200,
   type: 'main'
 };
 
 const PERSONA_NODES: Node[] = [
-  { 
-    id: 'engineer', 
-    label: ['Healthcare AI', 'Scientist'], 
+  {
+    id: 'engineer',
+    label: ['1', '@'],
     emoji: portfolioData.engineer.emoji,
-    size: 160, 
-    type: 'persona' 
+    size: 160,
+    type: 'persona'
   },
-  { 
-    id: 'educator', 
-    label: ['Business', 'Strategist'], 
+  {
+    id: 'educator',
+    label: ['2', '@'],
     emoji: portfolioData.educator.emoji,
-    size: 160, 
-    type: 'persona' 
+    size: 160,
+    type: 'persona'
   },
-  { 
-    id: 'movement-builder', 
-    label: ['Healthcare', 'Innovator'], 
+  {
+    id: 'movement-builder',
+    label: ['3', '@'],
     emoji: portfolioData['movement-builder'].emoji,
-    size: 160, 
-    type: 'persona' 
+    size: 160,
+    type: 'persona'
   }
 ];
 
@@ -296,15 +296,27 @@ export function BubbleChart({ className, selectedPersona, onSelectPersona, onSel
     // Add group class for hover effect
     nodeElements.attr('class', 'group cursor-pointer');
 
-    // Add profile image for main node
+    // Add white placeholder for main node
     nodeElements.filter(d => d.type === 'main')
-      .append('image')
-      .attr('href', '/Amirali.png')
+      .append('rect')
       .attr('width', MAIN_NODE.size)
       .attr('height', MAIN_NODE.size)
       .attr('x', -MAIN_NODE.size / 2)
       .attr('y', -MAIN_NODE.size / 2)
+      .attr('fill', 'white')
+      .attr('stroke', '#d1d5db')
+      .attr('stroke-width', 2)
       .attr('clip-path', 'url(#circle-clip)')
+      .attr('class', 'pointer-events-none');
+
+    // Add @ symbol to main node placeholder
+    nodeElements.filter(d => d.type === 'main')
+      .append('text')
+      .text('@')
+      .attr('text-anchor', 'middle')
+      .attr('dy', '0.35em')
+      .attr('fill', '#9ca3af')
+      .attr('font-size', '24px')
       .attr('class', 'pointer-events-none');
 
     // Add emojis to persona nodes only

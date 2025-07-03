@@ -63,7 +63,7 @@ export function PersonaSection({ selectedPersona, onSelectPersona, isMainSelecte
           {!hasPrevious && <div className="w-12 mr-4" />}
           <div className="flex-1 text-center">
             <p className="text-sm text-gray-400 mb-2">
-              An essential part of transforming healthcare is being {currentPersona.title.toLowerCase().startsWith('e') ? 'an' : 'a'}...
+              @ @ @ @ @ @ @ @ @ {currentPersona.title.toLowerCase().startsWith('e') ? '@' : '@'}...
             </p>
             <h2 className="text-4xl font-bold mb-4">
               {currentPersona.emoji} {currentPersona.title}
@@ -86,14 +86,14 @@ export function PersonaSection({ selectedPersona, onSelectPersona, isMainSelecte
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           <section>
             <h3 className="text-2xl font-semibold mb-6">
-              My {currentPersona.title}-Related Experiences
+              @ {currentPersona.title}-@ @
             </h3>
             <ExperienceTimeline experiences={currentPersona.experiences} />
           </section>
 
           <section>
             <h3 className="text-2xl font-semibold mb-6">
-              My {currentPersona.title} Inspirations
+              @ {currentPersona.title} @
             </h3>
             <div className="space-y-6">
               {currentPersona.inspirations.map((inspiration, index) => (
