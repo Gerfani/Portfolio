@@ -1,0 +1,296 @@
+{
+  "file": {
+    "name": "Ghazal Erfani Portfolio",
+    "description": "Portfolio design extracted from VS Code - Ready for editing in Figma"
+  },
+  "colorStyles": [
+    {
+      "name": "accent1",
+      "color": "#6366F1",
+      "type": "color"
+    },
+    {
+      "name": "accent2",
+      "color": "#8B5CF6",
+      "type": "color"
+    },
+    {
+      "name": "accent3",
+      "color": "#EC4899",
+      "type": "color"
+    },
+    {
+      "name": "hover",
+      "color": "#4B5563",
+      "type": "color"
+    },
+    {
+      "name": "background/light",
+      "color": "#FFFFFF",
+      "type": "color"
+    },
+    {
+      "name": "background/dark",
+      "color": "#0F172A",
+      "type": "color"
+    },
+    {
+      "name": "text/primary",
+      "color": "#FFFFFF",
+      "type": "color"
+    },
+    {
+      "name": "text/muted",
+      "color": "#9CA3AF",
+      "type": "color"
+    },
+    {
+      "name": "gradients/main",
+      "color": "linear-gradient(45deg, #3B82F6 0%, #60A5FA 40%, #8B5CF6 60%, #EC4899 100%)",
+      "type": "color"
+    },
+    {
+      "name": "gradients/shimmer",
+      "color": "linear-gradient(110deg, #fff 15%, #6366F1 35%, #8B5CF6 50%, #EC4899 65%, #fff 85%)",
+      "type": "color"
+    }
+  ],
+  "textStyles": [
+    {
+      "name": "3xl",
+      "fontSize": 30,
+      "fontFamily": "Inter",
+      "fontWeight": "400",
+      "type": "text"
+    },
+    {
+      "name": "2xl",
+      "fontSize": 24,
+      "fontFamily": "Inter",
+      "fontWeight": "400",
+      "type": "text"
+    },
+    {
+      "name": "xl",
+      "fontSize": 20,
+      "fontFamily": "Inter",
+      "fontWeight": "400",
+      "type": "text"
+    },
+    {
+      "name": "lg",
+      "fontSize": 18,
+      "fontFamily": "Inter",
+      "fontWeight": "400",
+      "type": "text"
+    },
+    {
+      "name": "base",
+      "fontSize": 16,
+      "fontFamily": "Inter",
+      "fontWeight": "400",
+      "type": "text"
+    },
+    {
+      "name": "sm",
+      "fontSize": 14,
+      "fontFamily": "Inter",
+      "fontWeight": "400",
+      "type": "text"
+    }
+  ],
+  "components": [
+    {
+      "name": "Main Portfolio Bubble",
+      "type": "ELLIPSE",
+      "width": 200,
+      "height": 200,
+      "fills": [
+        {
+          "type": "GRADIENT_LINEAR",
+          "gradientStops": [
+            {
+              "color": "#3B82F6",
+              "position": 0
+            },
+            {
+              "color": "#60A5FA",
+              "position": 0.4
+            },
+            {
+              "color": "#8B5CF6",
+              "position": 0.6
+            },
+            {
+              "color": "#EC4899",
+              "position": 1
+            }
+          ]
+        }
+      ],
+      "effects": [
+        {
+          "type": "DROP_SHADOW",
+          "color": "rgba(99, 102, 241, 0.3)",
+          "offset": {
+            "x": 0,
+            "y": 4
+          },
+          "radius": 15
+        }
+      ],
+      "text": {
+        "content": "GE",
+        "style": "heading-lg",
+        "color": "white",
+        "align": "center"
+      }
+    },
+    {
+      "name": "Engineer Bubble",
+      "type": "ELLIPSE",
+      "width": 120,
+      "height": 120,
+      "fills": [
+        {
+          "type": "SOLID",
+          "color": "#6366F1"
+        }
+      ],
+      "effects": [
+        {
+          "type": "DROP_SHADOW",
+          "color": "#6366F1",
+          "offset": {
+            "x": 0,
+            "y": 2
+          },
+          "radius": 8
+        }
+      ],
+      "text": {
+        "content": "⚡",
+        "style": "text-xl",
+        "align": "center"
+      }
+    },
+    {
+      "name": "Educator Bubble",
+      "type": "ELLIPSE",
+      "width": 120,
+      "height": 120,
+      "fills": [
+        {
+          "type": "SOLID",
+          "color": "#8B5CF6"
+        }
+      ],
+      "effects": [
+        {
+          "type": "DROP_SHADOW",
+          "color": "#8B5CF6",
+          "offset": {
+            "x": 0,
+            "y": 2
+          },
+          "radius": 8
+        }
+      ],
+      "text": {
+        "content": "📚",
+        "style": "text-xl",
+        "align": "center"
+      }
+    },
+    {
+      "name": "Movement Builder Bubble",
+      "type": "ELLIPSE",
+      "width": 120,
+      "height": 120,
+      "fills": [
+        {
+          "type": "SOLID",
+          "color": "#EC4899"
+        }
+      ],
+      "effects": [
+        {
+          "type": "DROP_SHADOW",
+          "color": "#EC4899",
+          "offset": {
+            "x": 0,
+            "y": 2
+          },
+          "radius": 8
+        }
+      ],
+      "text": {
+        "content": "🌟",
+        "style": "text-xl",
+        "align": "center"
+      }
+    },
+    {
+      "name": "Inspiration Card",
+      "type": "RECTANGLE",
+      "width": 300,
+      "height": 200,
+      "cornerRadius": 8,
+      "fills": [
+        {
+          "type": "SOLID",
+          "color": "rgba(0, 0, 0, 0.6)"
+        }
+      ],
+      "effects": [
+        {
+          "type": "BACKGROUND_BLUR",
+          "radius": 8
+        }
+      ],
+      "children": [
+        {
+          "name": "Avatar",
+          "type": "ELLIPSE",
+          "width": 48,
+          "height": 48,
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": "#9CA3AF"
+            }
+          ]
+        },
+        {
+          "name": "Title",
+          "type": "TEXT",
+          "style": "text-base",
+          "fontWeight": 600,
+          "color": "white"
+        },
+        {
+          "name": "Subtitle",
+          "type": "TEXT",
+          "style": "text-sm",
+          "color": "#9CA3AF"
+        }
+      ]
+    }
+  ],
+  "frames": [
+    {
+      "name": "Portfolio Layout",
+      "type": "FRAME",
+      "width": 1200,
+      "height": 800,
+      "background": "#0F172A",
+      "children": [
+        "Main Portfolio Bubble",
+        "Engineer Bubble",
+        "Educator Bubble",
+        "Movement Builder Bubble",
+        "Inspiration Card"
+      ]
+    }
+  ]
+}

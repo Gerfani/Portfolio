@@ -1,0 +1,8 @@
+{
+    "recommendations": [
+        "ms-vscode.live-server",
+        "esbenp.prettier-vscode",
+        "codeparrot-ai.codeparrot",
+        "figma.figma-vscode-extension"
+    ]
+}

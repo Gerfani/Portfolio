@@ -8,32 +8,32 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://aliyousefli.com'),
-  title: "Amirali (Ali) Yousefli's Portfolio",
-  description: "Healthcare AI Developer, Business Strategist, and Healthcare Innovator passionate about transforming healthcare through AI and business innovation.",
+  metadataBase: new URL('https://ghazal-erfani-portfolio.vercel.app'),
+  title: "Ghazal Erfani's Portfolio",
+  description: "Engineer, Educator, and Movement Builder. IT Operations student at Red River College passionate about technology, education, and community building.",
   openGraph: {
-    title: "Amirali (Ali) Yousefli's Portfolio",
-    description: "Healthcare AI Developer, Business Strategist, and Healthcare Innovator passionate about transforming healthcare through AI and business innovation.",
+    title: "Ghazal Erfani's Portfolio",
+    description: "Engineer, Educator, and Movement Builder. IT Operations student at Red River College passionate about technology, education, and community building.",
     images: [
       {
         url: "/meta.png",
         width: 1788,
         height: 1370,
-        alt: "Amirali (Ali) Yousefli's Portfolio"
+        alt: "Ghazal Erfani's Portfolio"
       }
     ],
     type: 'website',
-    siteName: "Amirali (Ali) Yousefli's Portfolio"
+    siteName: "Ghazal Erfani's Portfolio"
   },
   twitter: {
     card: "summary_large_image",
-    title: "Amirali (Ali) Yousefli's Portfolio",
-    description: "Healthcare AI Developer, Business Strategist, and Healthcare Innovator passionate about transforming healthcare through AI and business innovation.",
+    title: "Ghazal Erfani's Portfolio",
+    description: "Engineer, Educator, and Movement Builder. IT Operations student at Red River College passionate about technology, education, and community building.",
     images: ["/meta.png"],
-    creator: "@aliyousefli"
+    creator: "@GhazalErfani"
   },
   other: {
-    'share-id': 'portfolio-ali-yousefli'
+    'share-id': 'portfolio-ghazal-erfani'
   }
 };
 

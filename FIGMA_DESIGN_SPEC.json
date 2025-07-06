@@ -1,0 +1,222 @@
+{
+  "projectInfo": {
+    "teamId": "1522772323245093069",
+    "projectName": "Ghazal Erfani Portfolio",
+    "createdAt": "2025-07-04T20:13:38.793Z",
+    "userEmail": "ghazal.erfani.2140@gmail.com"
+  },
+  "portfolioDesign": {
+    "name": "Ghazal Erfani Portfolio",
+    "colors": {
+      "accent1": "#6366F1",
+      "accent2": "#8B5CF6",
+      "accent3": "#EC4899",
+      "background": "#0F172A",
+      "text": "#FFFFFF"
+    },
+    "personas": [
+      {
+        "name": "Engineer",
+        "color": "#6366F1",
+        "emoji": "⚡",
+        "description": "Technical expertise and innovation"
+      },
+      {
+        "name": "Educator",
+        "color": "#8B5CF6",
+        "emoji": "📚",
+        "description": "Knowledge sharing and mentoring"
+      },
+      {
+        "name": "Movement Builder",
+        "color": "#EC4899",
+        "emoji": "🌟",
+        "description": "Community building and leadership"
+      }
+    ]
+  },
+  "figmaInstructions": {
+    "step1": "Go to your Figma team and create a new file",
+    "step2": "Name it \"Ghazal Erfani Portfolio - Design System\"",
+    "step3": "Use the component specifications below to create your design",
+    "step4": "Your VS Code project will sync with this file"
+  },
+  "components": {
+    "mainBubble": {
+      "name": "Main Portfolio Bubble",
+      "type": "Circle",
+      "size": "200x200px",
+      "fill": {
+        "type": "Linear Gradient",
+        "angle": "45°",
+        "stops": [
+          {
+            "color": "#3B82F6",
+            "position": "0%"
+          },
+          {
+            "color": "#60A5FA",
+            "position": "40%"
+          },
+          {
+            "color": "#8B5CF6",
+            "position": "60%"
+          },
+          {
+            "color": "#EC4899",
+            "position": "100%"
+          }
+        ]
+      },
+      "effects": "Drop shadow: rgba(99, 102, 241, 0.3) 0px 4px 15px",
+      "text": {
+        "content": "GE",
+        "font": "Inter Bold",
+        "size": "24px",
+        "color": "White",
+        "alignment": "Center"
+      }
+    },
+    "personaBubbles": [
+      {
+        "name": "Engineer Bubble",
+        "type": "Circle",
+        "size": "120x120px",
+        "fill": {
+          "type": "Solid",
+          "color": "#6366F1"
+        },
+        "effects": "Drop shadow: #6366F1 0px 2px 8px",
+        "text": {
+          "content": "⚡",
+          "size": "20px",
+          "alignment": "Center"
+        },
+        "description": "Technical expertise and innovation"
+      },
+      {
+        "name": "Educator Bubble",
+        "type": "Circle",
+        "size": "120x120px",
+        "fill": {
+          "type": "Solid",
+          "color": "#8B5CF6"
+        },
+        "effects": "Drop shadow: #8B5CF6 0px 2px 8px",
+        "text": {
+          "content": "📚",
+          "size": "20px",
+          "alignment": "Center"
+        },
+        "description": "Knowledge sharing and mentoring"
+      },
+      {
+        "name": "Movement Builder Bubble",
+        "type": "Circle",
+        "size": "120x120px",
+        "fill": {
+          "type": "Solid",
+          "color": "#EC4899"
+        },
+        "effects": "Drop shadow: #EC4899 0px 2px 8px",
+        "text": {
+          "content": "🌟",
+          "size": "20px",
+          "alignment": "Center"
+        },
+        "description": "Community building and leadership"
+      }
+    ],
+    "colorPalette": [
+      {
+        "name": "Color Swatch: accent1",
+        "type": "Rectangle",
+        "size": "100x100px",
+        "fill": "#6366F1",
+        "cornerRadius": "8px",
+        "label": {
+          "text": "accent1",
+          "position": "Below",
+          "font": "Inter Medium 12px"
+        }
+      },
+      {
+        "name": "Color Swatch: accent2",
+        "type": "Rectangle",
+        "size": "100x100px",
+        "fill": "#8B5CF6",
+        "cornerRadius": "8px",
+        "label": {
+          "text": "accent2",
+          "position": "Below",
+          "font": "Inter Medium 12px"
+        }
+      },
+      {
+        "name": "Color Swatch: accent3",
+        "type": "Rectangle",
+        "size": "100x100px",
+        "fill": "#EC4899",
+        "cornerRadius": "8px",
+        "label": {
+          "text": "accent3",
+          "position": "Below",
+          "font": "Inter Medium 12px"
+        }
+      },
+      {
+        "name": "Color Swatch: background",
+        "type": "Rectangle",
+        "size": "100x100px",
+        "fill": "#0F172A",
+        "cornerRadius": "8px",
+        "label": {
+          "text": "background",
+          "position": "Below",
+          "font": "Inter Medium 12px"
+        }
+      },
+      {
+        "name": "Color Swatch: text",
+        "type": "Rectangle",
+        "size": "100x100px",
+        "fill": "#FFFFFF",
+        "cornerRadius": "8px",
+        "label": {
+          "text": "text",
+          "position": "Below",
+          "font": "Inter Medium 12px"
+        }
+      }
+    ]
+  },
+  "layout": {
+    "canvas": {
+      "background": "#0F172A",
+      "size": "1200x800px"
+    },
+    "arrangement": {
+      "mainBubble": {
+        "x": 100,
+        "y": 300
+      },
+      "engineerBubble": {
+        "x": 400,
+        "y": 200
+      },
+      "educatorBubble": {
+        "x": 400,
+        "y": 350
+      },
+      "movementBuilderBubble": {
+        "x": 400,
+        "y": 500
+      },
+      "colorPalette": {
+        "x": 50,
+        "y": 600,
+        "spacing": "120px"
+      }
+    }
+  }
+}

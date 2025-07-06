@@ -1,0 +1,186 @@
+{
+  "metadata": {
+    "name": "Ghazal Erfani Portfolio",
+    "extractedFrom": "VS Code Portfolio",
+    "timestamp": "2025-07-05T04:58:21.627Z"
+  },
+  "colors": {
+    "accent1": "#6366F1",
+    "accent2": "#8B5CF6",
+    "accent3": "#EC4899",
+    "hover": "#4B5563",
+    "background": {
+      "light": "#FFFFFF",
+      "dark": "#0F172A"
+    },
+    "text": {
+      "primary": "#FFFFFF",
+      "muted": "#9CA3AF"
+    },
+    "gradients": {
+      "main": "linear-gradient(45deg, #3B82F6 0%, #60A5FA 40%, #8B5CF6 60%, #EC4899 100%)",
+      "shimmer": "linear-gradient(110deg, #fff 15%, #6366F1 35%, #8B5CF6 50%, #EC4899 65%, #fff 85%)"
+    }
+  },
+  "typography": {
+    "fontFamily": {
+      "sans": "Inter",
+      "mono": "JetBrains Mono"
+    },
+    "sizes": {
+      "text-3xl": "1.875rem",
+      "text-2xl": "1.5rem",
+      "text-xl": "1.25rem",
+      "text-lg": "1.125rem",
+      "text-base": "1rem",
+      "text-sm": "0.875rem"
+    },
+    "weights": {
+      "normal": "400",
+      "medium": "500",
+      "semibold": "600",
+      "bold": "700"
+    }
+  },
+  "components": {
+    "bubbleChart": {
+      "name": "Interactive Bubble Chart",
+      "mainBubble": {
+        "size": "200px",
+        "gradient": "main",
+        "text": "GE",
+        "position": "center-left"
+      },
+      "personaBubbles": [
+        {
+          "name": "Engineer",
+          "size": "120px",
+          "color": "#6366F1",
+          "emoji": "⚡",
+          "position": "right-top"
+        },
+        {
+          "name": "Educator",
+          "size": "120px",
+          "color": "#8B5CF6",
+          "emoji": "📚",
+          "position": "right-center"
+        },
+        {
+          "name": "Movement Builder",
+          "size": "120px",
+          "color": "#EC4899",
+          "emoji": "🌟",
+          "position": "right-bottom"
+        }
+      ]
+    },
+    "header": {
+      "name": "Portfolio Header",
+      "background": "gradient-to-b from-white/90 to-white/0 dark:from-black/80 dark:to-black/0",
+      "title": {
+        "text": "@ @ @",
+        "animation": "shimmer",
+        "gradient": "shimmer"
+      },
+      "navigation": [
+        {
+          "text": "1",
+          "color": "#6366F1",
+          "target": "engineer"
+        },
+        {
+          "text": "2",
+          "color": "#8B5CF6",
+          "target": "educator"
+        },
+        {
+          "text": "3",
+          "color": "#EC4899",
+          "target": "movement-builder"
+        }
+      ]
+    },
+    "inspirationCard": {
+      "name": "Inspiration Card",
+      "background": "rgba(0, 0, 0, 0.6)",
+      "backdropFilter": "blur(8px)",
+      "borderRadius": "0.5rem",
+      "padding": "1.5rem",
+      "elements": [
+        {
+          "type": "avatar",
+          "size": "48px",
+          "borderRadius": "50%"
+        },
+        {
+          "type": "title",
+          "fontSize": "1rem",
+          "fontWeight": "600",
+          "color": "white"
+        },
+        {
+          "type": "subtitle",
+          "fontSize": "0.875rem",
+          "color": "#9CA3AF"
+        }
+      ]
+    },
+    "experienceTimeline": {
+      "name": "Experience Timeline",
+      "borderLeft": "2px solid currentColor",
+      "paddingLeft": "1rem",
+      "animation": "slide-in",
+      "cards": {
+        "background": "white dark:black",
+        "borderRadius": "0.5rem",
+        "padding": "1rem",
+        "shadow": "hover:shadow-lg",
+        "currentHighlight": "shadow-[0_0_15px_rgba(99,102,241,0.3)]"
+      }
+    }
+  },
+  "layout": {
+    "container": {
+      "maxWidth": "7xl",
+      "padding": "1.5rem"
+    },
+    "sections": {
+      "personas": {
+        "paddingTop": "8rem md:6rem",
+        "paddingX": "1.5rem"
+      },
+      "pillars": {
+        "background": "gradient",
+        "padding": "4rem 0"
+      }
+    }
+  },
+  "animations": {
+    "shimmer": {
+      "duration": "8s",
+      "timing": "linear infinite",
+      "keyframes": {
+        "0%": {
+          "backgroundPosition": "200% 0"
+        },
+        "100%": {
+          "backgroundPosition": "-200% 0"
+        }
+      }
+    },
+    "fadeIn": {
+      "duration": "0.3s",
+      "timing": "ease-out",
+      "delay": "staggered"
+    },
+    "bubbleHover": {
+      "duration": "0.3s",
+      "timing": "ease-out",
+      "effects": [
+        "glow",
+        "scale"
+      ]
+    }
+  }
+}

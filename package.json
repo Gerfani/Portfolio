@@ -1,12 +1,16 @@
 {
-  "name": "devrel",
+  "name": "ghazal-erfani-portfolio",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "figma:sync": "node scripts/sync-existing-design.js",
+    "figma:connect": "node scripts/create-figma-file.js",
+    "figma:push": "node scripts/push-to-figma.js",
+    "figma:setup": "echo 'Use npm run figma:sync to sync your existing design to Figma'"
   },
   "dependencies": {
     "@radix-ui/react-avatar": "^1.1.2",
@@ -16,9 +20,12 @@
     "@radix-ui/react-slot": "^1.1.1",
     "@radix-ui/react-tabs": "^1.1.2",
     "@types/d3": "^7.4.3",
+    "axios": "^1.10.0",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "d3": "^7.9.0",
+    "dotenv": "^17.0.1",
+    "figma-api": "^2.0.2-beta",
     "framer-motion": "^11.15.0",
     "lucide-react": "^0.469.0",
     "next": "15.1.3",
