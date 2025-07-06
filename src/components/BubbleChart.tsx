@@ -29,8 +29,8 @@ interface Link {
 }
 
 const MAIN_NODE: Node = {
-  id: 'ali',
-  label: ['@ @ @'],
+  id: 'ghazal',
+  label: ['G E'],
   emoji: '',
   size: 200,
   type: 'main'
@@ -39,21 +39,21 @@ const MAIN_NODE: Node = {
 const PERSONA_NODES: Node[] = [
   {
     id: 'engineer',
-    label: ['1', '@'],
+    label: ['1', '⚡'],
     emoji: portfolioData.engineer.emoji,
     size: 160,
     type: 'persona'
   },
   {
     id: 'educator',
-    label: ['2', '@'],
+    label: ['2', '📚'],
     emoji: portfolioData.educator.emoji,
     size: 160,
     type: 'persona'
   },
   {
     id: 'movement-builder',
-    label: ['3', '@'],
+    label: ['3', '🌟'],
     emoji: portfolioData['movement-builder'].emoji,
     size: 160,
     type: 'persona'
@@ -309,10 +309,10 @@ export function BubbleChart({ className, selectedPersona, onSelectPersona, onSel
       .attr('clip-path', 'url(#circle-clip)')
       .attr('class', 'pointer-events-none');
 
-    // Add @ symbol to main node placeholder
+    // Add GE symbol to main node placeholder
     nodeElements.filter(d => d.type === 'main')
       .append('text')
-      .text('@')
+      .text('GE')
       .attr('text-anchor', 'middle')
       .attr('dy', '0.35em')
       .attr('fill', '#9ca3af')

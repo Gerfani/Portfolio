@@ -23,29 +23,29 @@ export function MainBubbleBio({ onSelectPersona }: MainBubbleBioProps) {
     >
       <Card className="p-8 bg-gradient-to-r from-blue-500/10 to-purple-500/10 border border-blue-500/20">
         <div className="flex flex-col items-center text-center space-y-6">
-          <h2 className="text-3xl font-bold">👋 @, @&apos;@ @</h2>
+          <h2 className="text-3xl font-bold">👋 Hi, I&apos;m Ghazal Erfani</h2>
           <div className="text-lg text-muted-foreground max-w-2xl space-y-4">
             <p>
-              @&apos;@ @ @ @ @{' '}
+              I&apos;m a multi-faceted professional who embodies three key personas:{' '}
               <button
                 onClick={() => handlePersonaClick('engineer')}
                 className="text-[#6366F1] bg-[#6366F1]/10 px-1 rounded hover:bg-[#6366F1]/20 transition-colors"
               >
-                1
+                Engineer
               </button>,{' '}
               <button
                 onClick={() => handlePersonaClick('educator')}
                 className="text-[#8B5CF6] bg-[#8B5CF6]/10 px-1 rounded hover:bg-[#8B5CF6]/20 transition-colors"
               >
-                2
-              </button>, @{' '}
+                Educator
+              </button>, and{' '}
               <button
                 onClick={() => handlePersonaClick('movement-builder')}
                 className="text-[#EC4899] bg-[#EC4899]/10 px-1 rounded hover:bg-[#EC4899]/20 transition-colors"
               >
-                3
+                Movement Builder
               </button>{' '}
-              - @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @.
+              - each representing a unique aspect of my professional journey.
             </p>
             <p>
             @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @.            </p>
