@@ -48,18 +48,20 @@ export function MainBubbleBio({ onSelectPersona }: MainBubbleBioProps) {
               - each representing a unique aspect of my professional journey.
             </p>
             <p>
-            @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @.            </p>
+              Currently pursuing my IT Operations Diploma at Red River College, I bring technical expertise combined with real-world experience from my role as a Store Associate at Marshalls/Home Sense. My educational background from Iran, along with various certifications, has shaped my approach to continuous learning and knowledge sharing.
+            </p>
             <p>
-            @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @.            </p>
+              Beyond technical skills, I&apos;m passionate about community building and have volunteer experience in graphic design and promotions coordination. I believe in the power of technology to create positive change and am dedicated to building bridges between technical innovation and meaningful community impact.
+            </p>
             <p>
-              <strong>@ <span className="animate-shimmer bg-[linear-gradient(110deg,#fff,15%,#6366F1,35%,#8B5CF6,50%,#EC4899,65%,#fff,85%,#fff)] bg-[length:200%_100%] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent]">@</span> @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @.</strong>
+              <strong>Welcome to <span className="animate-shimmer bg-[linear-gradient(110deg,#fff,15%,#6366F1,35%,#8B5CF6,50%,#EC4899,65%,#fff,85%,#fff)] bg-[length:200%_100%] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent]">my</span> portfolio - where engineering excellence meets educational passion and community-driven innovation.</strong>
             </p>
           </div>
           <button
             onClick={scrollToPersonas}
             className="text-muted-foreground text-base hover:text-accent1 transition-colors cursor-pointer animate-pulse mt-4"
           >
-            ✨ @ @ @ 1, 2, @ 3 @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @
+            ✨ Click on Engineer, Educator, or Movement Builder bubbles above to explore each facet of my professional journey and discover the unique value I bring to every project and collaboration
           </button>
         </div>
       </Card>

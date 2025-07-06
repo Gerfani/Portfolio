@@ -114,7 +114,7 @@ export const createMainBubbleFigmaNode = (): FigmaCreateNode => {
       {
         type: 'TEXT',
         name: 'Main Bubble Text',
-        characters: '@',
+        characters: 'GE',
         x: 85,
         y: 85,
         width: 30,

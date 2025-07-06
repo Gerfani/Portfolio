@@ -26,7 +26,7 @@ export function Header({ className, onSelectPersona }: HeaderProps) {
         <div>
           <h1 className="text-2xl font-bold tracking-tight relative">
             <span className="animate-shimmer bg-[linear-gradient(110deg,#fff,15%,#6366F1,35%,#8B5CF6,50%,#EC4899,65%,#fff,85%,#fff)] bg-[length:200%_100%] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent]">
-              @ @ @
+              Ghazal Erfani
             </span>
           </h1>
           <p className="text-sm text-muted-foreground">
